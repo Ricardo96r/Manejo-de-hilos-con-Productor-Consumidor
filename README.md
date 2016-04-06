@@ -1,2 +1,10 @@
-# Manejo-de-hilos-con-Productor-Consumidor
-Ejemplo de uso del algoritmo de Productor-Consumidor manejando hilos
+# Manejo de hilos con el algoritmo de Productor-Consumidor
+Manejo de hilos con el algoritmo de Productor-Consumidor usando 9 semaforos para controlar la sincronizacion, exclusión mutua y inanición
+
+## Preview
+![alt tag](https://github.com/Ricardo96r/Manejo-de-hilos-con-Productor-Consumidor/blob/master/imagenes/Preview.png)
+
+## Especificaciones del programa
+La empresa MetroShoes le pide a usted que modele su fábrica de zapatos para poder observar y comprender su funcionamiento. Se le entregara un archivo de texto con el tipo y la cantidad de zapatos que son necesarios para producir en ese día en particular. Cada uno de estos zapatos necesita detalles y tiempos de producción particulares.
+La fábrica cuenta con una línea de producción de trenzas y una capacidad máxima para almacenarlas de 50; y en un primer momento cuenta con 3 operarios donde cada uno invierte 5 segundos en producir cada trenza. Se debe poder agregar y eliminar operarios que producen trenzas a lo largo de la ejecución del programa. Además de trenzas, MetroShoes produce suelas y plantillas; en un primer momento con 2 y 1 operario respectivamente, con 12 espacios para almacenar las suelas y 7 espacios para almacenar las plantillas, que tardan 5 y 10 segundos en elaborar cada suela y cada plantilla, respectivamente. También se deben poder agregar y eliminar operarios para estos elementos a lo largo del programa.
+La empresa además cuenta con un área de ensamblaje, donde se arman estas piezas y se le aplica el color al zapato; siguiendo el modelo que se quiere producir. El zapato tipo 1 necesita 2 unidades de trenza que se colocan en una suela y tardan 4 segundos en montarse, luego colocar la plantilla tarde 3 segundos, y pintar este zapato requiere 8 segundos para que finalmente quede listo. El zapato tipo 2 necesita 3 unidades de trenzas que se colocan en una suela, y tardan 6 segundos en montarse, luego colocar la plantilla tarda 5 segundos, y pintar este zapato requiere 6 segundos para que finalmente quede listo. El área de ensamblaje cuenta con un solo operador, pero tiene capacidad para contar con dos empleados trabajando al mismo tiempo, este operador extra se debe poder integrar en cualquier momento de la ejecución del programa. Además, se debe poder parar la ejecución de la línea de fabricación de piezas para los zapatos y del área de ensamblaje de zapatos en cualquier momento.
